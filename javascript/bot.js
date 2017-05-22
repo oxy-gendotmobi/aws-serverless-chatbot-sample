@@ -12,7 +12,7 @@
 
 const AWS = require('aws-sdk');
 const botName = "FAQBot";
-const lambda = new AWS.Lambda({region: 'us-west-2'});
+const lambda = new AWS.Lambda({region: 'us-west-1'});
 
 const availableCommands = ["usage", "show", "help"];
 const availableHelp = {"show": ["services", "<servicename>"],
